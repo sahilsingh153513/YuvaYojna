@@ -1,0 +1,274 @@
+{
+    "items": [
+        {
+            "id": "scheme21",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "PM Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Corporate Affairs",
+                "schemeCategory": [
+                    "Internship",
+                    "Skill Development"
+                ],
+                "schemeName": "Prime Minister\u2019s Internship Scheme",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "pmis",
+                "briefDescription": "Prime Minister\u2019s Internship Scheme provides opportunities for graduates and postgraduates to gain exposure to MCA components for 12 months.",
+                "tags": [
+                    "Internship",
+                    "Skill Development",
+                    "Prime Minister",
+                    "MCA"
+                ]
+            }
+        },
+        {
+            "id": "scheme22",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "NRE Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of New and Renewable Energy",
+                "schemeCategory": [
+                    "Internship",
+                    "Energy"
+                ],
+                "schemeName": "National Renewable Energy Internship Scheme",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "nreis",
+                "briefDescription": "MNRE Internship Scheme aims to provide exposure to renewable energy initiatives and develop skills for graduate and postgraduate students.",
+                "tags": [
+                    "Internship",
+                    "Renewable Energy",
+                    "MNRE",
+                    "Students"
+                ]
+            }
+        },
+        {
+            "id": "scheme23",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "Student Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Comptroller And Auditor General of India",
+                "schemeCategory": [
+                    "Internship",
+                    "Audit"
+                ],
+                "schemeName": "Student Internship Programme",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "sipocagi",
+                "briefDescription": "Student Internship Programme offers students practical exposure by providing internship experience in the offices of CAG India.",
+                "tags": [
+                    "Internship",
+                    "Students",
+                    "Audit",
+                    "CAG"
+                ]
+            }
+        },
+        {
+            "id": "scheme24",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "MEA Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of External Affairs",
+                "schemeCategory": [
+                    "Internship",
+                    "Foreign Affairs"
+                ],
+                "schemeName": "Internship Programme By The Ministry Of External Affairs",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "ip-mea",
+                "briefDescription": "The MEA Internship Programme offers Indian students a chance to work at the Ministry of External Affairs and learn about diplomacy and foreign policy.",
+                "tags": [
+                    "Internship",
+                    "Foreign Affairs",
+                    "MEA",
+                    "Students"
+                ]
+            }
+        },
+        {
+            "id": "scheme25",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "NSFDC Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Social Justice and Empowerment",
+                "schemeCategory": [
+                    "Internship",
+                    "Social Welfare"
+                ],
+                "schemeName": "The NSFDC Internship Scheme",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "tnsfdcis",
+                "briefDescription": "NSFDC Internship Scheme provides opportunities for Scheduled Castes youth to gain experience and skill development in professional areas.",
+                "tags": [
+                    "Internship",
+                    "Social Justice",
+                    "SC",
+                    "Skill Development"
+                ]
+            }
+        },
+        {
+            "id": "scheme26",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "ICRO Amrit Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Chemicals And Fertilizers",
+                "schemeCategory": [
+                    "Internship",
+                    "Research"
+                ],
+                "schemeName": "ICRO Amrit Internship Programme",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "icroaip",
+                "briefDescription": "The ICRO Amrit Internship Programme provides opportunities to gain research and field experience in chemical and fertilizer-related sectors.",
+                "tags": [
+                    "Internship",
+                    "Research",
+                    "Chemicals",
+                    "Fertilizers"
+                ]
+            }
+        },
+        {
+            "id": "scheme27",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "Law Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Law and Justice",
+                "schemeCategory": [
+                    "Internship",
+                    "Law"
+                ],
+                "schemeName": "Programme For Internship For LL.B/ LL.M/ Environmental Studies/ Research Students",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "pfifllesrs",
+                "briefDescription": "Internship programme for students pursuing LL.B, LL.M, Environmental Studies, and Research to gain practical exposure in law and policy matters.",
+                "tags": [
+                    "Internship",
+                    "Law",
+                    "Research",
+                    "Students"
+                ]
+            }
+        },
+        {
+            "id": "scheme28",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "TEC Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Communications",
+                "schemeCategory": [
+                    "Internship",
+                    "Technology"
+                ],
+                "schemeName": "TEC Internship Scheme",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "tecis",
+                "briefDescription": "TEC Internship Scheme provides students with opportunities to work on technical projects in telecommunications and related fields.",
+                "tags": [
+                    "Internship",
+                    "Technology",
+                    "Telecom",
+                    "Communications"
+                ]
+            }
+        },
+        {
+            "id": "scheme29",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "MANAGE Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Agriculture And Farmers Welfare",
+                "schemeCategory": [
+                    "Internship",
+                    "Agriculture"
+                ],
+                "schemeName": "MANAGE Internship Programme",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "mip",
+                "briefDescription": "MANAGE Internship Programme provides exposure in agriculture extension, agribusiness, environment, and rural development sectors.",
+                "tags": [
+                    "Internship",
+                    "Agriculture",
+                    "Rural Development",
+                    "Agribusiness"
+                ]
+            }
+        },
+        {
+            "id": "scheme30",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "NIELIT Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Electronics and Information Technology",
+                "schemeCategory": [
+                    "Internship",
+                    "IT"
+                ],
+                "schemeName": "NIELIT Internship Programme",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "nielitip",
+                "briefDescription": "NIELIT Internship Programme provides students with opportunities to gain IT skills and hands-on exposure to industry-level technologies.",
+                "tags": [
+                    "Internship",
+                    "IT",
+                    "NIELIT",
+                    "Technology"
+                ]
+            }
+        }
+    ]
+}

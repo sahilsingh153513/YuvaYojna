@@ -1,0 +1,698 @@
+{
+  "status": "Success",
+  "statusCode": 200,
+  "errorDescription": "",
+  "error": "null",
+  "data": {
+    "summary": {
+      "total": 4053,
+      "query": "",
+      "sortOptions": [
+        { "id": "multiple_sort", "label": "Relevance" },
+        { "id": "schemename-asc", "label": "Scheme Name (A->Z)" },
+        { "id": "schemename-desc", "label": "Scheme Name (Z->A)" }
+      ],
+      "appliedFilters": [],
+      "disabledFilters": []
+    },
+    "facets": [
+      {
+        "identifier": "beneficiaryState",
+        "label": "State",
+        "display": "ComboBoxFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "Gujarat", "count": 604 },
+          { "label": "All", "count": 546 },
+          { "label": "Haryana", "count": 249 },
+          { "label": "Tamil Nadu", "count": 238 },
+          { "label": "Puducherry", "count": 228 },
+          { "label": "Uttarakhand", "count": 215 },
+          { "label": "Goa", "count": 201 },
+          { "label": "Madhya Pradesh", "count": 187 },
+          { "label": "Rajasthan", "count": 162 },
+          { "label": "Bihar", "count": 116 },
+          { "label": "West Bengal", "count": 111 },
+          { "label": "Chhattisgarh", "count": 103 },
+          { "label": "Jharkhand", "count": 98 },
+          { "label": "Maharashtra", "count": 87 },
+          { "label": "Kerala", "count": 83 },
+          { "label": "Odisha", "count": 75 },
+          { "label": "Assam", "count": 70 },
+          { "label": "Himachal Pradesh", "count": 67 },
+          { "label": "Karnataka", "count": 66 },
+          { "label": "Meghalaya", "count": 64 },
+          { "label": "Andhra Pradesh", "count": 53 },
+          { "label": "Delhi", "count": 52 },
+          { "label": "Jammu and Kashmir", "count": 52 },
+          { "label": "Dadra & Nagar Haveli and Daman & Diu", "count": 50 },
+          { "label": "Uttar Pradesh", "count": 48 },
+          { "label": "Punjab", "count": 42 },
+          { "label": "Arunachal Pradesh", "count": 41 },
+          { "label": "Tripura", "count": 40 },
+          { "label": "Manipur", "count": 31 },
+          { "label": "Sikkim", "count": 26 },
+          { "label": "Telangana", "count": 24 },
+          { "label": "Nagaland", "count": 23 },
+          { "label": "Andaman and Nicobar Islands", "count": 21 },
+          { "label": "Chandigarh", "count": 21 },
+          { "label": "Mizoram", "count": 20 },
+          { "label": "Lakshadweep", "count": 10 },
+          { "label": "Ladakh", "count": 6 },
+          {
+            "label": "The Dadra And Nagar Haveli And Daman And Diu",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "identifier": "schemeCategory",
+        "label": "Scheme Category",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "Social welfare & Empowerment", "count": 1395 },
+          { "label": "Education & Learning", "count": 995 },
+          { "label": "Agriculture,Rural & Environment", "count": 668 },
+          { "label": "Business & Entrepreneurship", "count": 593 },
+          { "label": "Women and Child", "count": 424 },
+          { "label": "Skills & Employment", "count": 329 },
+          { "label": "Banking,Financial Services and Insurance", "count": 284 },
+          { "label": "Health & Wellness", "count": 229 },
+          { "label": "Sports & Culture", "count": 223 },
+          { "label": "Housing & Shelter", "count": 107 },
+          { "label": "Science, IT & Communications", "count": 70 },
+          { "label": "Transport & Infrastructure", "count": 63 },
+          { "label": "Travel & Tourism", "count": 51 },
+          { "label": "Utility & Sanitation", "count": 38 },
+          { "label": "Public Safety,Law & Justice", "count": 12 }
+        ]
+      },
+      {
+        "identifier": "gender",
+        "label": "Gender",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "All", "count": 3294 },
+          { "label": "Female", "count": 723 },
+          { "label": "Male", "count": 309 },
+          { "label": "Transgender", "count": 30 }
+        ]
+      },
+      {
+        "identifier": "age-general",
+        "label": "Age",
+        "display": "ComboBoxFacet",
+        "type": "RangeFacet",
+        "entries": [
+          { "label": 0, "count": 609 },
+          { "label": 10, "count": 3208 },
+          { "label": 20, "count": 3230 },
+          { "label": 30, "count": 3154 },
+          { "label": 40, "count": 3022 },
+          { "label": 50, "count": 2822 },
+          { "label": 60, "count": 2724 },
+          { "label": 70, "count": 1867 },
+          { "label": 80, "count": 1790 },
+          { "label": 90, "count": 1742 },
+          { "label": 100, "count": 1702 },
+          { "label": 110, "count": 1 }
+        ]
+      },
+      {
+        "identifier": "caste",
+        "label": "Caste",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "All", "count": 3360 },
+          { "label": "Scheduled Caste (SC)", "count": 359 },
+          { "label": "Scheduled Tribe (ST)", "count": 287 },
+          { "label": "Other Backward Class (OBC)", "count": 181 },
+          { "label": "General", "count": 60 },
+          {
+            "label": "Particularly Vulnerable Tribal Group (PVTG)",
+            "count": 37
+          },
+          {
+            "label": "De-Notified, Nomadic, and Semi-Nomadic (DNT) communities",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "identifier": "nodalMinistryName",
+        "label": "Ministry Name",
+        "display": "ComboBoxFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          {
+            "label": "Ministry Of Social Justice and Empowerment",
+            "count": 94
+          },
+          { "label": "Ministry of Education", "count": 77 },
+          { "label": "Ministry Of Science And Technology", "count": 68 },
+          {
+            "label": "Ministry Of Agriculture and Farmers Welfare",
+            "count": 43
+          },
+          { "label": "Ministry Of Commerce And Industry", "count": 29 },
+          {
+            "label": "Ministry Of Micro, Small and Medium Enterprises",
+            "count": 29
+          },
+          { "label": "Ministry Of Finance", "count": 18 },
+          { "label": "Ministry Of Textiles", "count": 17 },
+          { "label": "Ministry Of Health & Family Welfare", "count": 15 },
+          { "label": "Ministry Of Culture", "count": 13 },
+          { "label": "Ministry Of Defence", "count": 13 },
+          {
+            "label": "Ministry of Fisheries,Animal Husbandry and Dairying",
+            "count": 13
+          },
+          { "label": "Ministry Of Home Affairs", "count": 10 },
+          { "label": "Ministry Of Minority Affairs", "count": 10 },
+          { "label": "Ministry Of Rural Development", "count": 10 },
+          { "label": "Ministry Of Labour and Employment", "count": 8 },
+          { "label": "Ministry Of New and Renewable Energy", "count": 7 },
+          { "label": "Ministry Of Tribal Affairs", "count": 7 },
+          { "label": "Ministry Of Communication", "count": 6 },
+          { "label": "Ministry Of Jal Shakti", "count": 6 },
+          {
+            "label": "Ministry Of Skill Development And Entrepreneurship",
+            "count": 6
+          },
+          { "label": "Ministry of Women and Child Development", "count": 6 },
+          { "label": "Ministry Of External Affairs", "count": 5 },
+          { "label": "Ministry Of Housing & Urban Affairs", "count": 5 },
+          { "label": "Ministry Of Tourism", "count": 5 },
+          { "label": "Ministry Of Youth Affairs & Sports", "count": 5 },
+          {
+            "label": "Ministry of Electronics and Information Technology",
+            "count": 5
+          },
+          { "label": "Ministry Of Panchayati Raj", "count": 3 },
+          {
+            "label": "Ministry Of Personnel, Public Grievances And Pensions",
+            "count": 3
+          },
+          { "label": "Ministry Of Petroleum and Natural Gas", "count": 3 },
+          { "label": "Comptroller And Auditor General Of India", "count": 2 },
+          { "label": "Ministry Of Chemicals And Fertilizers", "count": 2 },
+          {
+            "label": "Ministry Of Environment,forests and climate change",
+            "count": 2
+          },
+          { "label": "Ministry Of Law and Justice", "count": 2 },
+          { "label": "Ministry Of Road Transport & Highways", "count": 2 },
+          { "label": "Ministry of Corporate Affairs", "count": 2 },
+          { "label": "Ministry of Heavy Industries", "count": 2 },
+          {
+            "label": "Ministry Of Consumer Affairs, Food And Public Distribution",
+            "count": 1
+          },
+          {
+            "label": "Ministry Of Development Of North Eastern Region",
+            "count": 1
+          },
+          { "label": "Ministry Of Earth Sciences", "count": 1 },
+          { "label": "Ministry Of Information And Broadcasting", "count": 1 },
+          { "label": "Ministry Of Railways", "count": 1 },
+          {
+            "label": "Ministry Of Statistics and Programme Implementation",
+            "count": 1
+          },
+          { "label": "Ministry of Food Processing Industries", "count": 1 },
+          { "label": "Ministry of Ports,Shipping and Waterways", "count": 1 },
+          {
+            "label": "NITI Aayog (National Institution for Transforming India)",
+            "count": 1
+          },
+          { "label": "The Lokpal of India", "count": 1 }
+        ]
+      },
+      {
+        "identifier": "level",
+        "label": "Level",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "State", "count": 3490 },
+          { "label": "Central", "count": 563 }
+        ]
+      },
+      {
+        "identifier": "residence",
+        "label": "Residence",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "Both", "count": 3848 },
+          { "label": "Rural", "count": 183 },
+          { "label": "Urban", "count": 36 }
+        ]
+      },
+      {
+        "identifier": "minority",
+        "label": "Minority",
+        "type": "CustomFacet",
+        "display": "SingleCheckBoxFacet",
+        "entries": [
+          { "label": "No", "count": 3985 },
+          { "label": "Yes", "count": 68 }
+        ]
+      },
+      {
+        "identifier": "disability",
+        "label": "Differently Abled",
+        "type": "CustomFacet",
+        "display": "SingleCheckBoxFacet",
+        "entries": [
+          { "label": "No", "count": 3758 },
+          { "label": "Yes", "count": 295 }
+        ]
+      },
+      {
+        "identifier": "benefitTypes",
+        "label": "Benefit Type",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "Cash", "count": 2872 },
+          { "label": "In Kind", "count": 602 },
+          { "label": "Composite", "count": 579 }
+        ]
+      },
+      {
+        "identifier": "dbtScheme",
+        "label": "DBT Scheme",
+        "type": "CustomFacet",
+        "display": "SingleCheckBoxFacet",
+        "entries": [
+          { "label": "No", "count": 3607 },
+          { "label": "Yes", "count": 446 }
+        ]
+      },
+      {
+        "identifier": "maritalStatus",
+        "label": "Marital Status",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "All", "count": 3794 },
+          { "label": "Never Married", "count": 117 },
+          { "label": "Widowed", "count": 104 },
+          { "label": "Married", "count": 88 },
+          { "label": "Divorced", "count": 49 },
+          { "label": "Separated", "count": 48 }
+        ]
+      },
+      {
+        "identifier": "disabilityPercentage",
+        "label": "Disability Percentage",
+        "display": "ComboBoxFacet",
+        "type": "RangeFacet",
+        "entries": [
+          { "label": 0, "count": 20 },
+          { "label": 10, "count": 23 },
+          { "label": 20, "count": 27 },
+          { "label": 30, "count": 27 },
+          { "label": 40, "count": 154 },
+          { "label": 50, "count": 158 },
+          { "label": 60, "count": 164 },
+          { "label": 70, "count": 169 },
+          { "label": 80, "count": 181 },
+          { "label": 90, "count": 181 },
+          { "label": 100, "count": 190 }
+        ]
+      },
+      {
+        "identifier": "isBpl",
+        "label": "Below Poverty Line",
+        "type": "CustomFacet",
+        "display": "SingleCheckBoxFacet",
+        "entries": [
+          { "label": "No", "count": 3893 },
+          { "label": "Yes", "count": 160 }
+        ]
+      },
+      {
+        "identifier": "isEconomicDistress",
+        "label": "Economic Distress",
+        "type": "CustomFacet",
+        "display": "SingleCheckBoxFacet",
+        "entries": [
+          { "label": "No", "count": 4008 },
+          { "label": "Yes", "count": 45 }
+        ]
+      },
+      {
+        "identifier": "isGovEmployee",
+        "label": "Government Employee",
+        "type": "CustomFacet",
+        "display": "SingleCheckBoxFacet",
+        "entries": [
+          { "label": "No", "count": 4040 },
+          { "label": "Yes", "count": 13 }
+        ]
+      },
+      {
+        "identifier": "employmentStatus",
+        "label": "Employment Status",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "All", "count": 3123 },
+          { "label": "Employed", "count": 510 },
+          { "label": "Self-Employed/ Entrepreneur", "count": 310 },
+          { "label": "Unemployed", "count": 110 }
+        ]
+      },
+      {
+        "identifier": "isStudent",
+        "label": "Student",
+        "type": "CustomFacet",
+        "display": "SingleCheckBoxFacet",
+        "entries": [
+          { "label": "No", "count": 3746 },
+          { "label": "Yes", "count": 307 }
+        ]
+      },
+      {
+        "identifier": "occupation",
+        "label": "Occupation",
+        "display": "ComboBoxFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "All", "count": 298 },
+          { "label": "Construction Worker", "count": 284 },
+          { "label": "Farmer", "count": 276 },
+          { "label": "Unorganized Worker", "count": 185 },
+          { "label": "Fishermen", "count": 92 },
+          { "label": "Artists", "count": 76 },
+          { "label": "Artisans, Spinners & Weavers", "count": 74 },
+          { "label": "Student", "count": 70 },
+          { "label": "Organized Worker", "count": 39 },
+          { "label": "Ex Servicemen", "count": 23 },
+          { "label": "Sportsperson", "count": 23 },
+          { "label": "Journalist", "count": 22 },
+          { "label": "Safai Karamchari", "count": 18 },
+          { "label": "Coir Worker", "count": 6 },
+          { "label": "Teacher / Faculty", "count": 6 },
+          { "label": "Agriculture Labour", "count": 2 },
+          { "label": "Dairy Farmer", "count": 2 },
+          { "label": "Health Worker", "count": 2 },
+          { "label": "Khadi Artisan", "count": 2 },
+          { "label": "Street Vendor", "count": 2 }
+        ]
+      },
+      {
+        "identifier": "applicationMode",
+        "label": "Application Mode",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "Offline", "count": 2282 },
+          { "label": "Online", "count": 2073 },
+          { "label": "Online - via CSC", "count": 150 }
+        ]
+      },
+      {
+        "identifier": "schemeType",
+        "label": "Scheme Type",
+        "display": "ListFacet",
+        "type": "RefinementSelectFacet",
+        "entries": [
+          { "label": "Central Sector Scheme", "count": 385 },
+          { "label": "Centrally Sponsored Scheme", "count": 86 }
+        ]
+      }
+    ],
+    "hits": {
+      "items": [
+        {
+          "id": "cBe4F5gB5uF80_MGM5Bp",
+          "fields": {
+            "beneficiaryState": ["All"],
+            "schemeShortTitle": "PMFDR",
+            "level": "Central",
+            "schemeFor": "Individual",
+            "nodalMinistryName": "Ministry Of Science And Technology",
+            "schemeCategory": [
+              "Education & Learning",
+              "Science, IT & Communications"
+            ],
+            "schemeName": "Prime Minister’s Fellowship for Doctoral Research",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "pmfdr",
+            "briefDescription": "Prime Minister’s Fellowship for Doctoral Research scheme is a prestigious initiative of Science and Engineering Research Board (SERB), Department of Science & Technology, Government of India towards the advancement of university research engagements in line with industry requirement.",
+            "tags": [
+              "Fellowship",
+              "Doctoral",
+              "Research",
+              "SERB",
+              "PhD",
+              "Fellow"
+            ]
+          },
+          "highlight": {}
+        },
+        {
+          "id": "k6GzF5gBXu-iUKXqIHSj",
+          "fields": {
+            "beneficiaryState": ["All"],
+            "schemeShortTitle": "PM-USP-CSSS",
+            "level": "Central",
+            "schemeFor": "Individual",
+            "nodalMinistryName": "Ministry of Education",
+            "schemeCategory": ["Education & Learning"],
+            "schemeName": "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University students",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "csss-cus",
+            "briefDescription": "A scholarship scheme by the Dept. of Higher Education to provide financial assistance to meritorious students from poor families to meet a part of their day-to-day expenses while pursuing higher studies. The scholarships are awarded on the basis of results of Higher Secondary / Class 12th Board Exam",
+            "tags": [
+              "Scholarship",
+              "Student",
+              "Financial Assistance",
+              "College",
+              "University"
+            ]
+          },
+          "highlight": {}
+        },
+        {
+          "id": "7sa0F5gB0AGc0F0iEjNP",
+          "fields": {
+            "beneficiaryState": ["Jammu and Kashmir"],
+            "schemeShortTitle": "PM-KUSUM",
+            "level": "Central",
+            "schemeFor": "Infra",
+            "nodalMinistryName": "Ministry Of New and Renewable Energy",
+            "schemeCategory": [
+              "Utility & Sanitation",
+              "Transport & Infrastructure"
+            ],
+            "schemeName": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Scheme For Farmers.",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "pm-kusum",
+            "briefDescription": "Pradhan Mantri Kisan Urja Surakshaevam Utthaan Mahabhiyan Yojana (PM-KUSUM Scheme) was launched in March 2019 by the Ministry of New and Renewable Energy (MNRE), to subsidize farmers to install solar irrigation pumps for cultivation. Each farmer will receive a 60% subsidy.",
+            "tags": ["Solar", "Farmer", "Infrastructure", "Utility"]
+          },
+          "highlight": {}
+        },
+        {
+          "id": "o6GzF5gBXu-iUKXqLXTE",
+          "fields": {
+            "beneficiaryState": ["All"],
+            "schemeShortTitle": "PMKVY -STT",
+            "level": "Central",
+            "schemeFor": "Individual",
+            "nodalMinistryName": "Ministry Of Skill Development And Entrepreneurship",
+            "schemeCategory": [
+              "Business & Entrepreneurship",
+              "Skills & Employment"
+            ],
+            "schemeName": "Pradhan Mantri Kaushal Vikas Yojana - Short Term Training",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "pmkvy-stt",
+            "briefDescription": "A skill development scheme by Ministry of Skill Development and Entrepreneurship for school/college dropouts/unemployed aged 15-45 at PMKVY Training Centres (TCs). ",
+            "tags": [
+              "Placement",
+              "Counselling",
+              "Training",
+              "Dropout",
+              "Unemployed",
+              "Skill",
+              "Vikas",
+              "Kaushal"
+            ]
+          },
+          "highlight": {}
+        },
+        {
+          "id": "RxezF5gB5uF80_MGII8A",
+          "fields": {
+            "beneficiaryState": ["All"],
+            "schemeShortTitle": "PM-KISAN",
+            "level": "Central",
+            "schemeFor": "Family",
+            "nodalMinistryName": "Ministry Of Agriculture and Farmers Welfare",
+            "schemeCategory": [
+              "Agriculture,Rural & Environment",
+              "Social welfare & Empowerment"
+            ],
+            "schemeName": "Pradhan Mantri Kisan Samman Nidhi",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "pm-kisan",
+            "briefDescription": "Farmer welfare scheme by Ministry of Agriculture and Farmers Welfare to provide income support to all landholding farmers' families in the country to supplement their financial needs for procuring various inputs related to agriculture and allied activities as well as domestic needs.\n",
+            "tags": [
+              "Farmers",
+              "Income Support",
+              "Agricultural Inputs",
+              "Kisan",
+              "Agriculture"
+            ]
+          },
+          "highlight": {}
+        },
+        {
+          "id": "scazF5gB0AGc0F0iIDP3",
+          "fields": {
+            "beneficiaryState": ["All"],
+            "schemeShortTitle": "PMKVY - SP",
+            "level": "Central",
+            "schemeFor": "Infra",
+            "nodalMinistryName": "Ministry Of Skill Development And Entrepreneurship",
+            "schemeCategory": [
+              "Business & Entrepreneurship",
+              "Skills & Employment"
+            ],
+            "schemeName": "Pradhan Mantri Kaushal Vikas Yojana - Special Projects",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "pmkvy-sp",
+            "briefDescription": "A skill development scheme by Ministry of Skill Development and Entrepreneurship for Marginalized or vulnerable groups which may not meet all the parameters as laid down in the Guidelines of ShortTerm Training (STT) of PMKVY 3.0",
+            "tags": [
+              "Marginalized Groups",
+              "Vulnerable Groups",
+              "Kaushal",
+              "Vikas",
+              "Skill",
+              "Scheduled Caste",
+              "Scheduled Tribe",
+              "PVTG",
+              "Women",
+              "Transgender",
+              "Economically Backward Section",
+              "Person With Disabilities",
+              "LWE"
+            ]
+          },
+          "highlight": {}
+        },
+        {
+          "id": "cqGzF5gBXu-iUKXqGnRv",
+          "fields": {
+            "beneficiaryState": ["All"],
+            "schemeShortTitle": "PMMY",
+            "level": "Central",
+            "schemeFor": "Infra",
+            "nodalMinistryName": "Ministry Of Finance",
+            "schemeCategory": ["Banking,Financial Services and Insurance"],
+            "schemeName": "Pradhan Mantri Mudra Yojana",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "pmmy",
+            "briefDescription": "Pradhan Mantri Mudra Yojana (PMMY) is  a flagship scheme of Government of India. It facilitates micro credit/Loan upto Rs. 20 lakhs to income generating micro enterprises engaged in the non farm sector in manufacturing, processing, trading or service sector including activities allied to agriculture",
+            "tags": ["Loan", "Business", "MUDRA"]
+          },
+          "highlight": {}
+        },
+        {
+          "id": "hqGzF5gBXu-iUKXqH3SW",
+          "fields": {
+            "beneficiaryState": ["All"],
+            "schemeShortTitle": "AB-PMJAY",
+            "level": "Central",
+            "schemeFor": "Family",
+            "nodalMinistryName": "Ministry Of Health & Family Welfare",
+            "schemeCategory": ["Health & Wellness"],
+            "schemeName": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "ab-pmjay",
+            "briefDescription": "AB PM-JAY is a health insurance scheme for low-income families in rural and urban areas. The scheme aims to provide affordable healthcare facilities to the Poor. It is the largest health assurance scheme in the world which aims at providing a health cover of ₹5,00,000/- per family per year.",
+            "tags": ["Health", "Insurance"]
+          },
+          "highlight": {}
+        },
+        {
+          "id": "TRezF5gB5uF80_MGII9K",
+          "fields": {
+            "beneficiaryState": ["All"],
+            "schemeShortTitle": "PMSBY",
+            "level": "Central",
+            "schemeFor": "Individual",
+            "nodalMinistryName": "Ministry Of Finance",
+            "schemeCategory": ["Banking,Financial Services and Insurance"],
+            "schemeName": "Pradhan Mantri Suraksha Bima Yojana",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "pmsby",
+            "briefDescription": "An Accident Insurance Scheme offering accidental death and disability cover for death or disability on account of an accident.",
+            "tags": [
+              "Bank Account Holders",
+              "Insurance",
+              "Accident Insurance",
+              "Death Insurance"
+            ]
+          },
+          "highlight": {}
+        },
+        {
+          "id": "pxe0F5gB5uF80_MGFY_X",
+          "fields": {
+            "beneficiaryState": ["All"],
+            "schemeShortTitle": "PMEGP",
+            "level": "Central",
+            "schemeFor": "Infra",
+            "nodalMinistryName": "Ministry Of Micro, Small and Medium Enterprises",
+            "schemeCategory": [
+              "Business & Entrepreneurship",
+              "Banking,Financial Services and Insurance",
+              "Social welfare & Empowerment",
+              "Skills & Employment"
+            ],
+            "schemeName": "Prime Minister's Employment Generation Programme",
+            "schemeCloseDate": null,
+            "priority": 0,
+            "slug": "pmegp",
+            "briefDescription": "Launched in August 2008, Prime Minister's Employment Generation Programme (PMEGP) is a credit-linked subsidy scheme, administered by the Ministry of Micro, Small and Medium Enterprises (MSME). PMEGP aims to generate employment opportunities through the establishment of micro-enterprises in ",
+            "tags": [
+              "Financial Assistance",
+              "Loan",
+              "Entrepreneur",
+              "Projects",
+              "Micro Enterprises"
+            ]
+          },
+          "highlight": {}
+        }
+      ],
+      "page": {
+        "total": 4053,
+        "totalPages": 406,
+        "pageNumber": 0,
+        "from": 0,
+        "size": 10
+      }
+    },
+    "sortedBy": "multiple_sort"
+  }
+}

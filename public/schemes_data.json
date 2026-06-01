@@ -1,0 +1,273 @@
+{
+    "items": [
+        {
+            "id": "scheme1",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "RFSMS",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Education",
+                "schemeCategory": [
+                    "Education & Learning",
+                    "Research"
+                ],
+                "schemeName": "Research Fellowship In Sciences For Meritorious Students",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "research-fellowship-sciences",
+                "briefDescription": "RFSMS scheme provides opportunities to meritorious students to undertake advanced studies and research leading to Ph.D. degrees in sciences.",
+                "tags": [
+                    "Fellowship",
+                    "Research",
+                    "PhD",
+                    "Science"
+                ]
+            }
+        },
+        {
+            "id": "scheme2",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "Pragati Degree",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Education",
+                "schemeCategory": [
+                    "Education & Learning",
+                    "Scholarship"
+                ],
+                "schemeName": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "pragati-scholarship-degree",
+                "briefDescription": "Pragati Scholarship provides financial assistance to girl students for pursuing technical degree programs at AICTE approved institutions.",
+                "tags": [
+                    "Scholarship",
+                    "Girls",
+                    "Technical",
+                    "Degree"
+                ]
+            }
+        },
+        {
+            "id": "scheme3",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "Pragati Diploma",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Education",
+                "schemeCategory": [
+                    "Education & Learning",
+                    "Scholarship"
+                ],
+                "schemeName": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "pragati-scholarship-diploma",
+                "briefDescription": "Pragati Scholarship provides financial assistance to girl students pursuing technical diploma programs at AICTE approved institutions.",
+                "tags": [
+                    "Scholarship",
+                    "Girls",
+                    "Technical",
+                    "Diploma"
+                ]
+            }
+        },
+        {
+            "id": "scheme4",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "FreeEduSports",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Education",
+                "schemeCategory": [
+                    "Education & Learning",
+                    "Sports"
+                ],
+                "schemeName": "Free Education For Sports Medal Winners / Participants Of National/ International Events",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "free-education-sports",
+                "briefDescription": "Free education for Sports Medal Winners / Participants of National and International level events to promote involvement in academics and sports.",
+                "tags": [
+                    "Scholarship",
+                    "Sports",
+                    "Free Education"
+                ]
+            }
+        },
+        {
+            "id": "scheme5",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "PGMerit",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Education",
+                "schemeCategory": [
+                    "Education & Learning",
+                    "Scholarship"
+                ],
+                "schemeName": "Post Graduate Merit Scholarship Scheme For University Rank Holders At Under-Graduate Level Applicable",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "pg-merit-scholarship",
+                "briefDescription": "Scholarship scheme to provide financial assistance for Post Graduate studies to university rank holders at undergraduate level.",
+                "tags": [
+                    "Scholarship",
+                    "Post Graduate",
+                    "Merit",
+                    "University Rank"
+                ]
+            }
+        },
+        {
+            "id": "scheme6",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "AICTE-INAE Travel",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Education",
+                "schemeCategory": [
+                    "Education & Learning",
+                    "Engineering"
+                ],
+                "schemeName": "AICTE-INAE Travel Grant Scheme For Engineering Students From AICTE Approved Engineering College/Institution",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "aicte-inae-travel-grant",
+                "briefDescription": "Travel grant scheme for engineering students from AICTE approved colleges to support participation in conferences and academic programs.",
+                "tags": [
+                    "Scholarship",
+                    "Engineering",
+                    "Travel Grant",
+                    "AICTE"
+                ]
+            }
+        },
+        {
+            "id": "scheme7",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "Indira Gandhi Single Girl",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Education",
+                "schemeCategory": [
+                    "Education & Learning",
+                    "Scholarship"
+                ],
+                "schemeName": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "pg-indira-gandhi-scholarship",
+                "briefDescription": "Scholarship scheme for Single Girl Child at Post Graduate level to promote higher education among single girl children.",
+                "tags": [
+                    "Scholarship",
+                    "Post Graduate",
+                    "Girls",
+                    "Single Girl Child"
+                ]
+            }
+        },
+        {
+            "id": "scheme8",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "Swami Vivekananda",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Education",
+                "schemeCategory": [
+                    "Education & Learning",
+                    "Research"
+                ],
+                "schemeName": "Swami Vivekananda Single Girl Child Fellowship for Research in Social Sciences",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "swami-vivekananda-fellowship",
+                "briefDescription": "Fellowship to encourage single girl child students to pursue research in social sciences and enhance academic opportunities.",
+                "tags": [
+                    "Fellowship",
+                    "Research",
+                    "Single Girl Child",
+                    "Social Sciences"
+                ]
+            }
+        },
+        {
+            "id": "scheme9",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "NHDP",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Textiles",
+                "schemeCategory": [
+                    "Employment & Training",
+                    "Skill Development"
+                ],
+                "schemeName": "National Handloom Development Programme (NHDP): Scholarship Component",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "nhdp-scholarship",
+                "briefDescription": "NHDP scholarship component aims to support weavers' children to pursue education and skill development opportunities.",
+                "tags": [
+                    "Scholarship",
+                    "Handloom",
+                    "Skill Development",
+                    "Education"
+                ]
+            }
+        },
+        {
+            "id": "scheme10",
+            "fields": {
+                "beneficiaryState": [
+                    "All"
+                ],
+                "schemeShortTitle": "DPIIT Internship",
+                "level": "Central",
+                "schemeFor": "Individual",
+                "nodalMinistryName": "Ministry of Commerce and Industry",
+                "schemeCategory": [
+                    "Internship",
+                    "Skill Development"
+                ],
+                "schemeName": "DPIIT Internship Scheme",
+                "schemeCloseDate": null,
+                "priority": 0,
+                "slug": "dpiit-internship",
+                "briefDescription": "Internship scheme of DPIIT offers opportunities to students for gaining practical exposure in policy and business-related work.",
+                "tags": [
+                    "Internship",
+                    "Skill Development",
+                    "Students",
+                    "Commerce"
+                ]
+            }
+        }
+    ]
+}
