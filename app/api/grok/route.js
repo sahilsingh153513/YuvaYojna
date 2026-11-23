@@ -2,6 +2,7 @@
 // OR pages/api/grok.js (for Pages Router)
 
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
+const GROQ_MODEL = process.env.GROQ_MODEL || 'openai/gpt-oss-20b';
 
 export async function POST(request) {
   try {
@@ -33,7 +34,7 @@ export async function POST(request) {
       }
     ];
 
-    // Call Groq API with CURRENT working model
+    // Use a model available to this Groq project, with an optional deployment override.
     const response = await fetch(GROQ_API_URL, {
       method: 'POST',
       headers: {
@@ -41,8 +42,7 @@ export async function POST(request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'llama-3.3-70b-versatile', // ✅ CURRENT WORKING MODEL (Dec 2024)
-        // Alternative models: 'llama-3.1-8b-instant', 'gemma2-9b-it'
+        model: GROQ_MODEL,
         messages: conversationMessages,
         max_tokens: 1000,
         temperature: 0.7,

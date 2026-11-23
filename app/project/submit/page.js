@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { FileText, AlignLeft, Github, Link as LinkIcon, Tag as TagIcon, User as UserIcon, Image as ImageIcon, Upload, Briefcase } from "lucide-react";
+import { FileText, AlignLeft, GitBranch, Link as LinkIcon, Tag as TagIcon, User as UserIcon, Image as ImageIcon, Upload, Briefcase } from "lucide-react";
 
 export default function SubmitProjectPage() {
 	const router = useRouter();
@@ -289,7 +289,7 @@ export default function SubmitProjectPage() {
 							<div className="group">
 								<label className="flex items-center gap-3 text-gray-900 font-semibold mb-3 text-lg">
 									<div className="p-2 rounded-lg bg-emerald-50 text-emerald-600 group-focus-within:bg-emerald-100 transition-colors duration-200">
-										<Github size={20} />
+										<GitBranch size={20} />
 									</div>
 									GitHub Repository
 								</label>
